@@ -2,6 +2,12 @@ var expect = require('expect.js');
 var Frame = require('../src/Frame.js');
 var Game = require('../src/Game.js');
 
+suite('Demo test suite', function(){
+  test('test 1', function(done){
+    expect(1).to.eql(1);
+    done();
+  });
+});
 
 suite('Bowling Score Test', function(){
 
