@@ -23,8 +23,8 @@ test:
     - mkdir -p $CIRCLE_TEST_REPORTS/mocha
     - grunt circleci
 
-deployment:
-   staging:
-     branch: master
-     heroku:
-       appname: fse-cmu-continuous-integration
+# deployment:
+#    staging:
+#      branch: master
+#      heroku:
+#        appname: fse-cmu-continuous-integration
